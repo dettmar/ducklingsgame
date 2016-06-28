@@ -575,7 +575,6 @@ th {
 * {
   box-sizing: border-box; }
 html {
-	background: #1b763f url(../img/bg_main.png) 50% 0 repeat-y;
 	background-size: 100% auto;
 	height: 100%;
 }
@@ -586,7 +585,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
-  background: transparent url(../img/top_bg2.png) 50% 0 no-repeat;
+  background: #273a55 url(../img/top_bg2.png) 50% 0 no-repeat;
   background-size: 100% auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;}
@@ -600,7 +599,7 @@ a {
     color: #fff; }
 
 .download_btns {
-	margin-top: 11rem;
+	margin-top: 23rem;
 }
 
 .download_btns small{
@@ -693,7 +692,7 @@ footer .small-text {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: #1b763f;
+  color: #273a55;
   background-color: #fff;
   border-color: #fff;
   border-style: solid;
@@ -767,7 +766,8 @@ footer .small-text {
   margin-bottom: 0.1rem;
   font-size: 10em;
   font-weight: normal;
-  font-family: 'Finger Paint';
+  font-family: Arial, sans-serif;
+  text-indent: -9999em;
   }
 
 @media screen and (min-width: 64em) {
@@ -809,7 +809,7 @@ footer .small-text {
   margin-top: 2rem;
   margin-bottom: 1rem;
   letter-spacing: .5px;
-  color: #dcc023;
+  color: #ffef3f;
   text-transform: uppercase;
   font-weight: 700; }
 .main-content p {
