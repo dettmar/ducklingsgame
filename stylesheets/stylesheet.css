@@ -587,6 +587,8 @@ body {
   color: #fff;
   background: #273a55 url(../img/top_bg2.png) 50% 0 no-repeat;
   background-size: 100% auto;
+/*  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;}
 .menu {
